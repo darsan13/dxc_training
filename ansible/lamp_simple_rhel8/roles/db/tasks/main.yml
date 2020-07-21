@@ -6,7 +6,7 @@
   with_items:
    - mariadb-server
    - mariadb
-   - python3-PyMySQ
+   - python3-PyMySQL
 
 
 - name: Configure SELinux to start mysql on any port
