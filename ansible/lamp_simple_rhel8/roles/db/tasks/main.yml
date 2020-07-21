@@ -5,7 +5,8 @@
   yum: name={{ item }} state=installed
   with_items:
    - mariadb-server
-   - libsemanage-python
+   - mariadb
+   - python3-PyMySQ
 
 
 - name: Configure SELinux to start mysql on any port
